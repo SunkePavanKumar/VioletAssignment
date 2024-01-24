@@ -9,12 +9,12 @@ import WallpaperBackground from "./components/WallpaperBackground";
 
 function App() {
   return (
-    <div className="container h-[100%] w-[100%] bg-slate-100">
+    <div className="container h-[100%] w-[100%] bg-slate-100 min-w-[664px]">
       <div className="nav-bar w-full bg-white">
         <NavBar />
       </div>
       <div className="container flex">
-        <div className="left w-[20%] border-2 border-gray-200 h-[100%] bg-white">
+        <div className="left w-[20%] border-2 border-gray-200 h-[100%] bg-white min-w-[204px]">
           <SideBar />
           <Footer />
         </div>
@@ -23,7 +23,7 @@ function App() {
             <WallpaperBackground />
           </div>
           <div className="flex">
-            <div className="profile-side-bar w-[25%] h-[100%] bg-white">
+            <div className="profile-side-bar w-[25%] h-[100%] bg-white min-w-[204px]">
               <ProfileSideBar />
             </div>
             <div className="sub-nav-bar w-[71%]  ml-[2%] mr-[2%] bg-white z-50 relative">
